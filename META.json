@@ -32,12 +32,13 @@
       },
       "runtime" : {
          "requires" : {
-            "Map::Tube" : "2.21",
+            "Map::Tube" : "2.22",
             "Moo" : "0",
+            "namespace::clean" : "0",
             "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.02"
+   "version" : "0.03"
 }

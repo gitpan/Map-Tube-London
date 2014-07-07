@@ -18,7 +18,8 @@ no_index:
     - t
     - inc
 requires:
-  Map::Tube: '2.21'
+  Map::Tube: '2.22'
   Moo: '0'
+  namespace::clean: '0'
   perl: '5.006'
-version: '0.02'
+version: '0.03'
