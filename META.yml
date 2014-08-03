@@ -5,7 +5,8 @@ author:
 build_requires:
   Test::More: '0'
 configure_requires:
-  ExtUtils::MakeMaker: '0'
+  ExtUtils::MakeMakere: '0'
+  File::ShareDir::Install: '0'
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.141520'
 license: artistic_2
@@ -18,8 +19,9 @@ no_index:
     - t
     - inc
 requires:
+  File::Share: '0'
   Map::Tube: '2.22'
   Moo: '0'
   namespace::clean: '0'
   perl: '5.006'
-version: '0.04'
+version: '0.05'
