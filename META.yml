@@ -26,4 +26,4 @@ requires:
   perl: '5.006'
 resources:
   repository: https://github.com/Manwar/Map-Tube-London.git
-version: '0.14'
+version: '0.15'
