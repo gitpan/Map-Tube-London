@@ -4,7 +4,7 @@
       "Mohammad S Anwar <mohammad.anwar@yahoo.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "ExtUtils::MakeMaker version 7.0505, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "artistic_2"
    ],
@@ -49,5 +49,6 @@
          "web" : "https://github.com/Manwar/Map-Tube-London"
       }
    },
-   "version" : "0.30"
+   "version" : "0.31"
 }
+
