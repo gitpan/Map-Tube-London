@@ -34,11 +34,41 @@
          "requires" : {
             "File::Share" : "0",
             "File::ShareDir::Install" : "0",
-            "Map::Tube" : "2.50",
+            "Map::Tube" : "2.57",
             "Moo" : "0",
             "namespace::clean" : "0",
             "perl" : "5.006"
          }
+      }
+   },
+   "provides" : {
+      "Map::Tube::London" : {
+         "file" : "lib/Map/Tube/London.pm",
+         "version" : "0.32"
+      },
+      "Map::Tube::London::Line::Bakerloo" : {
+         "file" : "lib/Map/Tube/London/Line/Bakerloo.pm",
+         "version" : "0.32"
+      },
+      "Map::Tube::London::Line::Central" : {
+         "file" : "lib/Map/Tube/London/Line/Central.pm",
+         "version" : "0.32"
+      },
+      "Map::Tube::London::Line::Circle" : {
+         "file" : "lib/Map/Tube/London/Line/Circle.pm",
+         "version" : "0.32"
+      },
+      "Map::Tube::London::Line::HammersmithCity" : {
+         "file" : "lib/Map/Tube/London/Line/HammersmithCity.pm",
+         "version" : "0.32"
+      },
+      "Map::Tube::London::Line::Jubilee" : {
+         "file" : "lib/Map/Tube/London/Line/Jubiles.pm",
+         "version" : "0.32"
+      },
+      "Map::Tube::London::Line::Metropolitan" : {
+         "file" : "lib/Map/Tube/London/Line/Metropolitan.pm",
+         "version" : "0.32"
       }
    },
    "release_status" : "stable",
@@ -49,6 +79,6 @@
          "web" : "https://github.com/Manwar/Map-Tube-London"
       }
    },
-   "version" : "0.31"
+   "version" : "0.32"
 }
 
