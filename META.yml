@@ -20,36 +20,36 @@ no_index:
 provides:
   Map::Tube::London:
     file: lib/Map/Tube/London.pm
-    version: '0.34'
+    version: '0.35'
   Map::Tube::London::Line::Bakerloo:
     file: lib/Map/Tube/London/Line/Bakerloo.pm
-    version: '0.34'
+    version: '0.35'
   Map::Tube::London::Line::Central:
     file: lib/Map/Tube/London/Line/Central.pm
-    version: '0.34'
+    version: '0.35'
   Map::Tube::London::Line::Circle:
     file: lib/Map/Tube/London/Line/Circle.pm
-    version: '0.34'
+    version: '0.35'
   Map::Tube::London::Line::District:
     file: lib/Map/Tube/London/Line/District.pm
-    version: '0.34'
+    version: '0.35'
   Map::Tube::London::Line::HammersmithCity:
     file: lib/Map/Tube/London/Line/HammersmithCity.pm
-    version: '0.34'
+    version: '0.35'
   Map::Tube::London::Line::Jubilee:
     file: lib/Map/Tube/London/Line/Jubilee.pm
-    version: '0.34'
+    version: '0.35'
   Map::Tube::London::Line::Metropolitan:
     file: lib/Map/Tube/London/Line/Metropolitan.pm
-    version: '0.34'
+    version: '0.35'
 requires:
   File::Share: '0'
   File::ShareDir::Install: '0'
-  Map::Tube: '2.57'
+  Map::Tube: '2.61'
   Moo: '0'
   namespace::clean: '0'
   perl: '5.006'
 resources:
   repository: https://github.com/Manwar/Map-Tube-London.git
-version: '0.34'
+version: '0.35'
 
